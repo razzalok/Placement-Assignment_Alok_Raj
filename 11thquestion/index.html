@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        body{
+            background-color: #fff;
+            
+        }
+       header{
+        display: flex;
+        /* flex-direction: column; */
+        margin-left: 0.5rem;
+       }
+       .item1{
+        background-color: #65A0CC;
+        width: 30vw;
+        height: 20vh;
+            
+            
+       }
+        .item2{
+            background-color: #A9A9A7;
+            width: 70vw;
+            height: 20vh;
+            margin-left: 0.5rem;
+           
+        }
+        nav{
+            background-color: #797977;
+            margin-top: 2vh;
+            height: 50vh;
+            margin-left: 0.5rem;
+        }
+        .container{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+        }
+        .card{
+            background-color: #B1D5EB;
+            width: 35vw;
+            height: 40vh;
+            margin-left: 0.5rem;
+            margin-top: 2vh;
+        }
+    
+        footer{
+            background-color: #C5C6C0;
+            height: 20vh;
+            margin-left: 0.5rem;
+            margin-top: 2vh;
+        }
+
+
+        @media (max-width: 600px) {
+        .item1{
+        height: 10vh;        
+       }
+        .item2{
+            height: 10vh;
+        }
+        nav{
+            height: 35vh;
+        }
+        .container {
+            flex-direction: column;
+        }
+        .card{
+            width: 93vw;
+            height: 15vh;
+            
+        }
+        
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="item1">
+            
+        </div>
+
+        <div class="item2">
+            
+        </div>
+    </header>
+    <nav>
+        
+    </nav>
+    <div class="container">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>
